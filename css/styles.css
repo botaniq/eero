@@ -1,0 +1,46 @@
+:root {
+  --button-color: #2468ff;
+  --primary-color: #ffffff;
+  --secondary-bgcolor: #161f49;
+  --color-text-dark: #404040;
+
+  --font-primary: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
