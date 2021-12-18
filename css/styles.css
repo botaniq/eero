@@ -34,6 +34,10 @@ a {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -43,4 +47,48 @@ img {
   width: 1440px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.promo-bar {
+  background-color: var(--secondary-bgcolor);
+}
+
+.promo-bar__text {
+  color: var(--primary-color);
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.10998px;
+
+  padding: 5px 0;
+}
+
+.logo {
+  padding-left: 36px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+
+  margin-left: 195px;
+}
+
+.nav__list-item a {
+  color: var(--color-text-dark);
+}
+
+.nav__list-item + .nav__list-item {
+  margin-left: 37px;
+}
+
+.primary-button {
+  margin-left: auto;
 }
