@@ -4,7 +4,7 @@
   --secondary-bgcolor: #161f49;
   --color-text-dark: #404040;
 
-  --font-primary: "Roboto", sans-serif;
+  --font-primary: 'Roboto', sans-serif;
 }
 
 body {
@@ -91,4 +91,60 @@ img {
 
 .primary-button {
   margin-left: auto;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.primary-button {
+  cursor: pointer;
+  background: var(--button-color);
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.79;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.header-button {
+  padding: 27px 64px 28px 64px;
+}
+
+.hero__container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  background-image: url('../images/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 591px;
+}
+.hero__title {
+  font-size: 72px;
+  line-height: 1.11;
+  padding: 120px 0 24px 0;
+}
+.hero__text {
+  font-size: 21px;
+  line-height: 1.38;
+  padding-bottom: 16px;
+}
+.hero__button {
+  font-size: 14px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  background: transparent;
+  padding: 16px 0 21px 0;
+  min-width: 226px;
+  border: 1px solid #ffffff;
+}
+.hero__img {
+  margin: 0 auto;
+  padding-top: 87px;
 }
